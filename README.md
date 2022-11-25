@@ -1,5 +1,10 @@
 # Simple Streams client for Dart
 
+[![pub](https://img.shields.io/pub/v/simplestreams.svg)](https://pub.dev/packages/simplestreams)
+[![license: MPL](https://img.shields.io/badge/license-MPL-magenta.svg)](https://opensource.org/licenses/MPL-2.0)
+[![CI](https://github.com/canonical/simplestreams.dart/actions/workflows/ci.yaml/badge.svg)](https://github.com/canonical/simplestreams.dart/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/canonical/simplestreams.dart/branch/main/graph/badge.svg?token=GQ7hEKjqdf)](https://codecov.io/gh/canonical/simplestreams.dart)
+
 [Simple Streams](https://launchpad.net/simplestreams/) describe streams of like
 items in a structural fashion. A client provides a way to sync or act on changes
 in a remote stream.
