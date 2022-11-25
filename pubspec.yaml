@@ -1,5 +1,11 @@
 name: simplestreams
-publish_to: 'none'
+description: |
+  Simple Streams describe streams of like items in a structural fashion.
+  A client provides a way to sync or act on changes in a remote stream.
+homepage: https://launchpad.net/simplestreams/
+repository: https://github.com/canonical/simplestreams.dart
+issue_tracker: https://github.com/canonical/simplestreams.dart/issues
+version: 0.1.0
 
 environment:
   sdk: '>=2.17.0 <3.0.0'
