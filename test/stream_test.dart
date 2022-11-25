@@ -59,7 +59,10 @@ void main() {
   });
 
   test('format', () async {
-    const response = {'index': {}, 'format': 'index:5.0'};
+    const response = {
+      'index': <String, dynamic>{},
+      'format': 'index:5.0',
+    };
 
     final http = MockHttpClient();
     final uri = Uri.https('127.0.0.1', '/streams/v1/index.json');
@@ -73,7 +76,7 @@ void main() {
 
   test('updated', () async {
     const response = {
-      'index': {},
+      'index': <String, dynamic>{},
       'updated': 'Wed, 01 Jun 2022 11:29:48 +0000',
       'format': 'index:1.0'
     };
